@@ -20,7 +20,7 @@ Esta libreria permite generar una barra en la parte superior de nuestro sistema 
 # Instalación Composer
 
 ```sh
-composer require 
+composer require rmunate/barra-entorno
 ```
 
 Esta carpeta se carga por defecto dentro del Framework, por lo cual podremos llamar la clase en cualquier controlador con total libertad.
@@ -40,7 +40,7 @@ Listado Actual de Métodos
 METODO
 | METODO | DESCRIPCIÓN |
 | ------ | ------ |
-| EnvBar::bar([version,url,ruta_logo]) | Método para generar la barra HTML en el Front de Blade, tambien se puede generar una peticion en el layaut al back para generar esta barra en cualquier otro tipo de Front como Vue, React ó Angular |
+| EnvironmentBar::bar([version,url,ruta_logo]) | Método para generar la barra HTML en el Front de Blade, tambien se puede generar una peticion en el layaut al back para generar esta barra en cualquier otro tipo de Front como Vue, React ó Angular |
 
 En este método se podrá, enviar como primer argumento la versión del Software, en segunda pocisión la URL de producción y como ultimo la ruta de la imagen del logo.
 
