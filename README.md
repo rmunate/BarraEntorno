@@ -36,15 +36,15 @@ use Rmunate\BarraEntorno\EnvironmentBar;
 METODO
 | METODO | DESCRIPCIÓN |
 | ------ | ------ |
-| EnvironmentBar::bar([version,url,ruta_logo]) | Método para generar la barra HTML en el Front de Blade, tambien se puede generar una peticion en el layaut al back para generar esta barra en cualquier otro tipo de Front como Vue, React ó Angular |
+| `EnvironmentBar::bar('version','url','nombre_barra','ruta_logo')` | Método para generar la barra HTML en el Front de Blade, tambien se puede generar una peticion en el layaut al back para generar esta barra en cualquier otro tipo de Front como Vue, React ó Angular |
 
 En este método se podrá, enviar como primer argumento la versión del Software, en segunda pocisión la URL de producción y como ultimo la ruta de la imagen del logo.
 
 _Código Plantila Blade Laravel_
 
 ```sh
-{{-- Este Codigo Debe Ir Antes Del Cierre Del Body Del Layaut (En Blade) --}}
-{!! App\Services\EnvironmentBar::bar('1.0.0','https://strategy4.com.co', public_path() . 'images/logo.png') !!}
+{{-- Este Codigo Debe Ir Antes Del Cierre Del Body en el HTML (En Blade) --}}
+{!! App\Services\EnvironmentBar::bar('1.0.0','https://strategy4.com.co','Altum Digital', public_path() . 'images/logo.png') !!}
 ```
 
 ## Desarrollador

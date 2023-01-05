@@ -13,7 +13,12 @@ use Illuminate\Foundation\Application;
 
 class EnvironmentBar {
 
-    public static function bar (string $version = '1.0.0', string $url_produccion = '#', $rutaImagen = null) {
+    public static function bar (
+        string $version = '1.0.0', 
+        string $url_produccion = '#', 
+        $empresa = "Altum Digital", 
+        $rutaImagen = null
+    ) {
 
         /* Imagen Barra */
         if (!empty($rutaImagen)) {
@@ -249,7 +254,7 @@ class EnvironmentBar {
             <div class="separador-env-bar"></div>
 
             <div class="contenedor-ver-env-bar">
-                <span class="lenguaje-env-bar"> Altum Digital</span>
+                <span class="lenguaje-env-bar">' . $empresa .'</span>
             </div>
 
             <div class="separador-env-bar"></div>
