@@ -33,10 +33,6 @@ use Rmunate\BarraEntorno\EnvironmentBar;
 ```
 
 ## Métodos
-
-Podrá invocar el método que requiera de la clase.
-Listado Actual de Métodos
-
 METODO
 | METODO | DESCRIPCIÓN |
 | ------ | ------ |
@@ -47,12 +43,11 @@ En este método se podrá, enviar como primer argumento la versión del Software
 _Código Plantila Blade Laravel_
 
 ```sh
+{{-- Este Codigo Debe Ir Antes Del Cierre Del Body Del Layaut --}}
 {!! App\Services\EnvironmentBar::bar('1.0.0','https://strategy4.com.co', public_path() . 'images/logo.png') !!}
 ```
-![image](https://user-images.githubusercontent.com/91748598/189487595-7056d2e2-1e4b-4e91-902f-072d4e436553.png)
 
 ## Desarrollador
-
 - Ingeniero, Raúl Mauricio Uñate Castro
 - raulmauriciounate@gmail.com
 
