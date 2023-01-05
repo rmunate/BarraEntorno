@@ -43,8 +43,8 @@ En este método se podrá, enviar como primer argumento la versión del Software
 _Código Plantila Blade Laravel_
 
 ```sh
-{{-- Este Codigo Debe Ir Antes Del Cierre Del Body en el HTML (En Blade) --}}
-{!! App\Services\EnvironmentBar::bar('1.0.0','https://strategy4.com.co','Altum Digital', public_path() . 'images/logo.png') !!}
+{{-- Este Codigo Debe Ir Antes Del Cierre Del Body en el HTML (En Blade En El Layout) --}}
+{!! Rmunate\BarraEntorno\EnvironmentBar::bar('1.0.0','https://strategy4.com.co','Altum Digital', public_path() . 'images/logo.png') !!}
 ```
 
 ## Desarrollador
