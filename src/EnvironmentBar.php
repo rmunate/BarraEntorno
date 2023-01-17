@@ -285,7 +285,7 @@ class EnvironmentBar {
         $logo = !empty($this->logo) ? $this->logo : Images64::defaultLogo();
         $logoPHP = !empty($this->logoPHP) ? $this->logoPHP : Images64::defaultLogoPHP();
         $logoLaravel = !empty($this->logoLaravel) ? $this->logoLaravel : Images64::defaultLogoLaravel();
-        $logoProtocolo = !empty($this->logoProtocolo) ? $this->logoProtocolo : Images64::defaultLogoProtocolo();
+        $logoProtocolo = !empty($this->logoProtocolo) ? $this->logoProtocolo : Images64::defaultLogoProtocol();
         $logoVersion = !empty($this->logoVersion) ? $this->logoVersion : Images64::defaultLogoVersion();
         $logoCompany = !empty($this->logoCompany) ? $this->logoCompany : Images64::defaultlogoCompany();
 
