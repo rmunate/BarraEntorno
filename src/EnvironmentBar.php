@@ -40,7 +40,7 @@ class EnvironmentBar {
 
     /* Constructor */
     public function __construct(){
-        $this->$nameCompany = Self::$company;
+        $this->nameCompany = Self::$company;
     }
 
     /* Logo Barra */
