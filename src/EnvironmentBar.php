@@ -28,7 +28,7 @@ class EnvironmentBar {
     private $logoProtocol = null;
     private $logoVersion = null;
     private $logoCompany = null;
-    private $version = '1.0.0';
+    private $versionSoft = '1.0.0';
     private $textQA = 'Ambiente De Desarrollo o QA'; 
     private $descriptionQA = 'Este es el ambiente sobre el cual se está ejecutando el Software, tenga presente que nuestros sistemas mostraran esta barra siempre que el ambiente en uso no sea el productivo.';
     private $textProduction = 'Ir al Ambiente Productivo';
@@ -166,7 +166,7 @@ class EnvironmentBar {
     /* Version del Software */
     public function version(string $version){
         if (!empty($version)) {
-            $this->version = $version;
+            $this->versionSoft = $version;
         }
         return $this;
     }
