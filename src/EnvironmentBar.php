@@ -238,7 +238,7 @@ class EnvironmentBar {
 
     /* Version Software */
     public function getVersionSoft(){
-        return $this->versonSoft;
+        return $this->versionSoft;
     }
 
     /* company */
