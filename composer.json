@@ -1,6 +1,6 @@
 {
     "name": "rmunate/barra-entorno",
-    "description": "Esta librería permite generar una barra en la parte superior de nuestro sistema web, con el fin de mostrar a nuestros clientes, usuarios y compañeros de desarrollo los datos del entorno en el que corre la herramienta y si deseamos su infraestructura.",
+    "description": "Esta librería permite generar una barra en la parte superior de nuestro sistema Web, con el fin de mostrar a nuestros clientes, usuarios y compañeros de desarrollo los datos del entorno en el que corre la herramienta y si deseamos su infraestructura.",
     "keywords": [
         "barra",
         "entorno",

@@ -9,7 +9,6 @@ Esta libreria permite generar una barra en la parte superior de nuestro sistema 
 ![image](https://user-images.githubusercontent.com/91748598/189487420-4d4b8e81-1275-4421-af4c-77c0e5ee1ccc.png)
 
 ## Características
-
 -	Mostrar la version de PHP y Laravel
 -	Mostrar el Dominio
 -	Mostrar el entorno del sistema.
@@ -19,15 +18,15 @@ Esta libreria permite generar una barra en la parte superior de nuestro sistema 
 ## Instalación
 # Instalación Composer
 
-```sh
-composer require rmunate/barra-entorno
+```console
+composer require rmunate/barra-entorno v2.0.x-dev
 ```
 
 Esta carpeta se carga por defecto dentro del Framework, por lo cual podremos llamar la clase en cualquier controlador con total libertad.
 
 Llamado y uso de Clase
 
-```sh
+```php
 <?php
 use Rmunate\BarraEntorno\EnvironmentBar;
 ```
@@ -65,7 +64,7 @@ METODOS FINAL RENDER
 
 _Código Plantila Blade Laravel_
 
-```sh
+```php
 {{-- Este Codigo Debe Ir Antes Del Cierre Del Body en el HTML (En Blade En El Layout) --}}
 {!! Rmunate\BarraEntorno\EnvironmentBar::bar('Altum Digital')->render() !!}
 ```

@@ -3,11 +3,12 @@
 namespace Rmunate\BarraEntorno;
 
 /* CSS Estilos Barra */
+class Styles
+{
 
-class Styles {
+    public static function css()
+    {
 
-    public static function css(){
-        
         return "<style>
 
             /* Fuente */
@@ -198,5 +199,3 @@ class Styles {
     }
 
 }
-
-?>

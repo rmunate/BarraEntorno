@@ -6,7 +6,8 @@ namespace Rmunate\BarraEntorno;
 class Script
 {
 
-    public static function JavaScript($url_produccion = '#'){
+    public static function JavaScript($url_produccion = '#')
+    {
 
         return "<script>
 
@@ -110,8 +111,5 @@ class Script
 
         </script>";
     }
-    
+
 }
-
-
-?>
