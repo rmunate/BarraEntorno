@@ -1,39 +1,23 @@
-# Barra de Entorno PHP Laravel
-## _Solo una barra de entorno_
+# Barra de Entorno (PHP | LARAVEL)
+> [![Raul Mauricio Uñate Castro](https://storage.googleapis.com/lola-web/storage_apls/RecursosCompartidos/LogoGithubLibrerias.png)](#)
 
-[![N|Solid](https://i.ibb.co/ZLzQTpm/Firma-Git-Hub.png)](#)
-
-Esta libreria permite generar una barra en la parte superior de nuestro sistema web, con el fin de mostrar a nuestros usuarios y compañeros de desarrollo los datos del entorno en el que corre la herramienta.
-
-## Salida de Barra
-![image](https://user-images.githubusercontent.com/91748598/189487420-4d4b8e81-1275-4421-af4c-77c0e5ee1ccc.png)
+Esta libreria permite generar una barra en la parte superior del sistema web, con el fin de mostrar a los usuarios y compañeros de desarrollo los datos del entorno en el que corre la plataforma.
 
 ## Características
--	Mostrar la version de PHP y Laravel
--	Mostrar el Dominio
--	Mostrar el entorno del sistema.
--	Indicar al usuario la URL del Sistema en Produccion.
--	La barra solo es visible si el APP_DEBUG en el ENV está en estado TRUE (Comúnmente en producción está en False, por lo cual en este entorno no será visible, De igual manera si se está empleando en otro tipo de Front como Vue, React ó Angular, la petición al servidor no retornaría datos.)
+-   Mostrar la version de PHP y Laravel en USo
+-   Mostrar el Dominio
+-   Mostrar el entorno del sistema. (QA- PROD)
+-   Indicar al usuario la URL del Sistema en Produccion.
+-   La barra solo es visible si el APP_DEBUG en el .ENV está en estado TRUE (Comúnmente en producción está en False, por lo cual en este entorno no será visible, De igual manera si se está empleando en otro tipo de Front como Vue, React ó Angular, la petición al servidor no retornaría datos.)
 
-## Instalación
-# Instalación Composer
+# Instalación
+## _Instalación a través de Composer_
 
 ```console
 composer require rmunate/barra-entorno v2.0.x-dev
 ```
 
-Esta carpeta se carga por defecto dentro del Framework, por lo cual podremos llamar la clase en cualquier controlador con total libertad.
-
-Llamado y uso de Clase
-
-```php
-<?php
-use Rmunate\BarraEntorno\EnvironmentBar;
-```
-
-## Métodos
-
-METODO
+## Metodos
 
 | METODO | DESCRIPCIÓN |
 | ------ | ------ |
@@ -69,9 +53,10 @@ _Código Plantila Blade Laravel_
 {!! Rmunate\BarraEntorno\EnvironmentBar::bar('Altum Digital')->render() !!}
 ```
 
-## Desarrollador
-- Ingeniero, Raúl Mauricio Uñate Castro
-- raulmauriciounate@gmail.com
+## Salida de Barra
+![image](https://user-images.githubusercontent.com/91748598/189487420-4d4b8e81-1275-4421-af4c-77c0e5ee1ccc.png)
 
-## Licencia
-MIT
+## Mantenedores
+- Ingeniero, Raúl Mauricio Uñate Castro (raulmauriciounate@gmail.com)
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
